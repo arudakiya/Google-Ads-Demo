@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_Interstitial"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Interstitial" />
+
+            <Button
+                android:id="@+id/btn_Banner"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Banner" />
+
+            <Button
+                android:id="@+id/btn_Native"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Native" />
+
+            <Button
+                android:id="@+id/btn_Reword"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Reword" />
+
+            <Button
+                android:id="@+id/btn_AppOpen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AppOpen" />
+
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <LinearLayout
+        android:id="@+id/lv_google_banner"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:visibility="gone" />
+
+
+    <RelativeLayout
+        android:id="@+id/google_native_lv"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_below="@id/lv_google_banner"
+        android:layout_marginTop="10dp"
+        android:visibility="gone">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="Space for Ads"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" />
+
+    </RelativeLayout>
+</RelativeLayout>

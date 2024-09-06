@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#000</color>
+    <color name="color_bg_ads">#0F0F0F</color>
+    <color name="color_ads_title">#FFF</color>
+    <color name="color_ads_advertiser">#E6E6E6</color>
+    <color name="color_ads_stars">#FFC107</color>
+    <color name="color_ads_price">#8BC34A</color>
+    <color name="color_ads_store">#FFFFFF</color>
+    <color name="color_ads_btn_bg_start">#091565</color>
+    <color name="color_ads_btn_bg_end">#001EC5</color>
+    <color name="color_ads_btn_text">#FFF</color>
+    <color name="color_ads_txt_bg_start">#091565</color>
+    <color name="color_ads_txt_bg_end">#001EC5</color>
+    <color name="color_ads_ad_text">#FFF</color>
+    <color name="color_loading_ads">#FFF</color>
+</resources>
